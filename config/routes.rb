@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'home/index'
 
-  resources :home do
-    resources :battle
-  end
-  root"home#show"
+  resources :battle
+
+  root"home#index"
   
 end
