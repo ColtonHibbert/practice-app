@@ -1,0 +1,2 @@
+module PokeArticlesHelper
+end
